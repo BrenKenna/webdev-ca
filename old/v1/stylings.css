@@ -52,13 +52,10 @@
 */
 .banner {
     float:left;
-    /* background-color: #758CAC; */
-    background-color: #009999;
+    background-color: blueviolet;
     width: 100%;
     padding-top: 10px;
     padding-bottom: 10px;
-    margin-bottom: 10px;
-    height: auto;
 }
 
 
@@ -66,13 +63,11 @@
 .banner ul{
     list-style: none;
     padding-left: 0px;
-    margin: 0 auto;
-    width: 35%;
 }
 
 .banner ul li{
     float:left;
-    padding: 0px 25px;
+    padding: 0px 30px;
     border-right: 2px solid black;
 }
 
@@ -88,7 +83,7 @@
     text-decoration: none;
     text-transform: uppercase;
     font-size: 17px;
-    line-height: 40px;
+    line-height: 30px;
     transition: font-size 0.3s ease;
     -webkit-transition: font-size 0.3s ease;
     -moz-transition: font-size 0.3s ease;
@@ -112,26 +107,53 @@
 /* Section stylings */
 .LandingPage{
     position: relative;
-    width: 55%;
-    margin: auto;
-    /*border: #2EB2F7 ridge 5px;*/
+    height: 925px;
+    width: 100%;
+    /*background-color: rgba(0, 119, 255, 0.747);*/
     clear: both;
-    padding-top: 40px;
-    padding-bottom: 50px;
-    border-left: 3px solid black;
 }
 
+
+/* Left aside HR Box */
+.LandingPage #hrBox{
+    height: auto;
+    width: 45%;
+    border: rgba(0, 119, 255, 0.747) ridge 4px;
+    border-radius: 5px;
+    float: left;
+    padding-bottom: 10px;
+    margin-left: 15px;
+}
+
+#hrBox h3{
+    padding-left: 10px;
+}
+
+/* Style buttons */
+.btn {
+    background-color: green;
+    margin-left: 50px;
+    color: white;
+    cursor: pointer;
+    padding: 15px 25px;
+    font-weight: bold;
+}
+.btn #login{
+    margin-left: 50px;
+}
 
 /* Right aside article boxes */
 .LandingPage #tableBox{
-    position: absolute;
-    margin-top: 30px;
-    /*border: rgba(0, 119, 255, 0.747) ridge 5px;*/
+    margin-top: 60px;
+    height: auto;
+    width: 45%;
+    border: rgba(0, 119, 255, 0.747) ridge 5px;
     border-radius: 5px;
+    float: right;
     margin-right: 15px;
 }
 
-.tableLink{
+#tableBox article{
     font-family: Arial, Helvetica, sans-serif;
     padding-left: 10px;
     transition: font-size 0.3s ease;
@@ -139,10 +161,8 @@
     -moz-transition: font-size 0.3s ease;
     -o-transition: font-size 0.3s ease;
     -ms-transition: font-size 0.3s ease;
-    margin: auto;
-    padding-bottom: 15px;
 }
-.tableLink:hover{
+#tableBox article:hover{
     font-size: 115%;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -165,7 +185,7 @@
     clear: left;
     width: 100%;
     height: auto;
-    padding-top: 10px;
+    padding-top: 0px;
 }
 
 
@@ -183,23 +203,22 @@
 /* Style left aside */
 #leftAside{
 	float: left;
-	position: relative;
+	position: sticky;
 	top: 0px;
-    height: 500px;
-    width: 14%;
+    height: 510px;
+    width: 15%;
+    background-color: blueviolet;
     padding-top: 0px;
-    border: black solid 2px;
 }
 
 /* Style database navigation list */
 #dbNav{
-    clear: left;
-    position: absolute;
     font-family: Arial, Helvetica, sans-serif;
     list-style: none;
     padding-left: 0px;
-    width: 100%;
-    top: 17%;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
     transition: font-size 0.3s ease;
     -webkit-transition: font-size 0.3s ease;
     -moz-transition: font-size 0.3s ease;
@@ -207,12 +226,9 @@
     -o-transition: font-size 0.3s ease;
 }
 #dbNav li{
-    border-bottom: 2px solid black;
-    padding: 20px 0px;
+    border-bottom: 3px solid black;
+    padding: 15px 0px;
     text-align: center;
-}
-#dbNav li:first-child{
-    border-top: 2px solid black;
 }
 
 #dbNav li:hover{
@@ -231,31 +247,25 @@
 *
 */
 
-/* Reset table stylings */
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-}
-
 /* Overflow and margin */
 #tableDiv{
     height: 500px;
     width: 85%;
     overflow: auto;
     display: inline-block;
+    padding-top: 10px;
 }
 
 .myTable {
     font-family: Arial, Helvetica, sans-serif;
-    width: 80%;
+    width: 99%;
     margin: auto;
     text-align: center;
     border-collapse: collapse;
 }
 
 #title td{
-    font-size: 150%;
-    background: #004C99;
+    background: lightslategrey;
 }
 
 
@@ -269,18 +279,20 @@ table {
 .myTable #colHead{
     position: sticky;
     top: 0;
-    font-size: 125%;
-    background-color: #009999;
+    font-size: 150%;
+    background-color: red;
     opacity: 0.8;
 }
 
 /* Style even rows from table, and highlight on hover */
-
+#tableBody tr{
+    background-color: lightpink;
+}
 #tableBody tr:nth-child(even) {
-    background-color: lightsteelblue;
+    background-color: grey;
 }
 #tableBody tr:hover{
-    /*background-color: lightsteelblue;*/
+    background-color: lightsteelblue;
     font-size: 125%;
 }
 
@@ -288,9 +300,11 @@ table {
 .myTable thead,tfoot{
     font-weight: bold;
 }
-
+.myTable tfoot{
+    background-color: lightskyblue;
+}
 .myTable tfoot:hover,#title:hover,#colHead:hover{
-    /*background-color: lightyellow;*/
+    background-color: lightyellow;
     font-size: 125%;
 }
 
@@ -301,21 +315,20 @@ table {
 * 
 */
 .footer{
-    clear: both;
     position: relative;
     width: 100%;
     height: 100px;
-    background-color:#004C99;
+    background-color: indianred;
     margin-top: 10px;
+    clear: both;
 }
 .footer div{
     position: absolute;
     height: auto;
     width: 100%;
-    top: 25%;
+    top: 15%;
     margin-left: 35%;
     margin-right: 25%;
     font-style: italic;
     font-weight: bold;
-    color: whitesmoke;
 }
