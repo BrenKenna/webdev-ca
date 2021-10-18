@@ -13,11 +13,13 @@ Insert any screenshots here???
 
 ## To Do List:
 
-1. Flush stylings and update pages.
-2. 4 pages per table & link to each other.
-3. Finalize images for brand & icon for tables template.
-4. Consistent color pallet for pages + text.
-5. Table color stylings <= Less is more.
+1. Create another table and link together
+2. Finalize images for brand & icon for tables template.
+   - Dones
+3. Consistent color pallet for pages + text
+   - Done
+4. Table color stylings <= Less is more
+   - Done
 
 
 
