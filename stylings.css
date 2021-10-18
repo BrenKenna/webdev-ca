@@ -1,0 +1,334 @@
+/* 
+* Sections:
+* 
+*  Landing Page:
+*   1. Header & Navbar stylings.
+*   2. Core page content
+*       -> Left aside HR Box.
+*       -> Right aside table navigation
+* 
+*  Base Table pages:
+*   1. Header & Navbar stylings <= covered by landing page
+*   2. Core page content stylings.
+*   3. Left and right asides stylings.
+*   4. Table stylings.
+*   5. Page footer styling.
+*/
+
+
+/*
+* 
+* 1. Stylings for header and navbar:
+* 
+*/
+
+/* 
+* Header:
+*   - Will change content to an image with a header as meme
+*/
+#brand{
+    height: auto;
+    width: 100%;
+    padding-top: 10px;
+    /*background-color: khaki;*/
+    margin: auto;
+    position: relative;
+}
+
+#brand h1{
+    position: absolute;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 45px;
+    top: 405px;
+    left: 10px;
+}
+
+/* 
+* Navigation bar:
+*   - Text as header
+*   - Want a hover styling
+*/
+.banner {
+    float:left;
+    background-color: blueviolet;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+/* Style the navigation list & items */
+.banner ul{
+    list-style: none;
+    padding-left: 0px;
+}
+
+.banner ul li{
+    float:left;
+    padding: 0px 30px;
+    border-right: 2px solid black;
+}
+
+/* Drop border from the last list element*/
+.banner ul li:last-child{
+    border-right: none;
+}
+
+/* Style hovering on list items */
+.banner ul li a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+    line-height: 30px;
+    transition: font-size 0.3s ease;
+    -webkit-transition: font-size 0.3s ease;
+    -moz-transition: font-size 0.3s ease;
+    -o-transition: font-size 0.3s ease;
+    -ms-transition: font-size 0.3s ease;
+}
+.banner ul li a:hover{
+    font-size: 125%;
+}
+
+
+/*
+* 
+* Landing Page Content Section:
+*
+*   - Need padding etc
+*   - Check background colors
+* 
+*/
+
+/* Section stylings */
+.LandingPage{
+    position: relative;
+    height: 925px;
+    width: 100%;
+    /*background-color: rgba(0, 119, 255, 0.747);*/
+    clear: both;
+}
+
+
+/* Left aside HR Box */
+.LandingPage #hrBox{
+    height: auto;
+    width: 45%;
+    border: rgba(0, 119, 255, 0.747) ridge 4px;
+    border-radius: 5px;
+    float: left;
+    padding-bottom: 10px;
+    margin-left: 15px;
+}
+
+#hrBox h3{
+    padding-left: 10px;
+}
+
+/* Style buttons */
+.btn {
+    background-color: green;
+    margin-left: 50px;
+    color: white;
+    cursor: pointer;
+    padding: 15px 25px;
+    font-weight: bold;
+}
+.btn #login{
+    margin-left: 50px;
+}
+
+/* Right aside article boxes */
+.LandingPage #tableBox{
+    margin-top: 60px;
+    height: auto;
+    width: 45%;
+    border: rgba(0, 119, 255, 0.747) ridge 5px;
+    border-radius: 5px;
+    float: right;
+    margin-right: 15px;
+}
+
+#tableBox article{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+    transition: font-size 0.3s ease;
+    -webkit-transition: font-size 0.3s ease;
+    -moz-transition: font-size 0.3s ease;
+    -o-transition: font-size 0.3s ease;
+    -ms-transition: font-size 0.3s ease;
+}
+#tableBox article:hover{
+    font-size: 115%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#table2, #table3{
+    padding-top: 10px;
+}
+
+/*
+* 
+* 2. Section holding main content
+*
+*/
+
+/* Content section */
+#contentDiv{
+
+    /* background-color: cornflowerblue; */
+    clear: left;
+    width: 100%;
+    height: auto;
+    padding-top: 0px;
+}
+
+
+
+/*
+* 
+* 3. Style the asides
+*   - Left aside moves to other tables
+*       => Ideally a click box actives it moving out from the left
+* 
+*   - Rigth aside table documentation
+*       => Ideally a click box actives it moving out from the right
+*/
+
+/* Style left aside */
+#leftAside{
+	float: left;
+	position: sticky;
+	top: 0px;
+    height: 510px;
+    width: 15%;
+    background-color: blueviolet;
+    padding-top: 0px;
+}
+
+/* Style database navigation list */
+#dbNav{
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    padding-left: 0px;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    transition: font-size 0.3s ease;
+    -webkit-transition: font-size 0.3s ease;
+    -moz-transition: font-size 0.3s ease;
+    -ms-transition: font-size 0.3s ease;
+    -o-transition: font-size 0.3s ease;
+}
+#dbNav li{
+    border-bottom: 3px solid black;
+    padding: 15px 0px;
+    text-align: center;
+}
+
+#dbNav li:hover{
+    font-size: 145%;
+}
+#dbNav li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+/*
+*
+* 4. Table Stylings 
+*
+*
+*/
+
+/* Overflow and margin */
+#tableDiv{
+    height: 500px;
+    width: 85%;
+    overflow: auto;
+    display: inline-block;
+    padding-top: 10px;
+}
+
+.myTable {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 99%;
+    margin: auto;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+#title td{
+    background: lightslategrey;
+}
+
+
+/* Style table data */
+.myTable td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+/* Make header sticky */
+.myTable #colHead{
+    position: sticky;
+    top: 0;
+    font-size: 150%;
+    background-color: red;
+    opacity: 0.8;
+}
+
+/* Style even rows from table, and highlight on hover */
+#tableBody tr{
+    background-color: lightpink;
+}
+#tableBody tr:nth-child(even) {
+    background-color: grey;
+}
+#tableBody tr:hover{
+    background-color: lightsteelblue;
+    font-size: 125%;
+}
+
+/* Style title, col header and footer */
+.myTable thead,tfoot{
+    font-weight: bold;
+}
+.myTable tfoot{
+    background-color: lightskyblue;
+}
+.myTable tfoot:hover,#title:hover,#colHead:hover{
+    background-color: lightyellow;
+    font-size: 125%;
+}
+
+
+/*
+* 
+* 5. Page footer
+* 
+*/
+.footer{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background-color: indianred;
+    margin-top: 10px;
+    clear: both;
+}
+.footer div{
+    position: absolute;
+    height: auto;
+    width: 100%;
+    top: 15%;
+    margin-left: 35%;
+    margin-right: 25%;
+    font-style: italic;
+    font-weight: bold;
+}
