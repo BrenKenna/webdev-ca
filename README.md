@@ -13,12 +13,16 @@ Insert any screenshots here???
 
 
 
+
+
 ## To Do List:
 
 1. Flush stylings and update pages.
 2. Finalize images for brand & icon for tables template.
 3. Consistent color pallet for pages + text.
 4. Table color stylings <= Less is more.
+
+
 
 
 
