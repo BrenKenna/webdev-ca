@@ -32,7 +32,7 @@ Insert any screenshots here???
 
   ​	https://www.w3schools.com/html/html5_semantic_elements.asp
 
-
+  
 
 - Website layout:
 
@@ -40,7 +40,7 @@ Insert any screenshots here???
 
   ​	https://www.w3schools.com/html/html_layout.asp
 
-
+  
 
 - Main CSS stylings:
 
