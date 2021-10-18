@@ -1,6 +1,4 @@
 # webdev-ca
-------
-
 ## Plan
 
 Have a landing page where the user can then access their own profile and then the core content. Rational is to try to limit overloading the user with too much content. Logging-in and password resets are more to add aesthetic appeal to the website, and also superfluous to requirements, so their buttons will be artificial.
@@ -13,23 +11,12 @@ Most to do work as this point is more towards simpler styling, and finalizing im
 
 Insert any screenshots here???
 
-------
-
-
-
 ## To Do List:
 
 1. Flush stylings and update pages.
-
 2. Finalize images for brand & icon for tables template.
-
 3. Consistent color pallet for pages + text.
-
 4. Table color stylings <= Less is more.
-
-   
-
-------
 
 
 
