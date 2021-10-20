@@ -14,11 +14,30 @@ Insert any screenshots here???
 ## To Do List:
 
 1. Create another table and link together
-2. Finalize images for brand & icon for tables template.
-   - Dones
-3. Consistent color pallet for pages + text
+
+   
+
+2. Fix navbar:
+
+   - Option 1 = Replace ul with just the links and center align text.
+   - Option 2 = Fix glitchy ul in navbar for certain length ~ >5
+     - Due to margin that the ul + its items can occupy within the navbar
+     - Either option is fine pros / cons largely artificial compared to having something functional
+     - Option 1 uses less content elements, do that first & look at #2 later.
+
+   
+
+3. Finalize images for brand & icon for tables template.
    - Done
-4. Table color stylings <= Less is more
+
+     
+
+4. Consistent color pallet for pages + text
+   - Done
+
+     
+
+5. Table color stylings <= Less is more
    - Done
 
 
