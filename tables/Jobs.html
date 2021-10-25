@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+    <!-- Page head -->
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="../stylings.css">
+        <title>Jobs</title>
+    </head>
+
+
+    <!-- Page Body -->
+    <body>
+
+        <!-- Navigation Banner  -->
+        <nav class="banner" id="index">
+            <ul> 
+                <li><h3><a href="../index.html" class="active">Home</a></h3></li>
+                <li><h3><a href="#">Username</a></h3></li>
+                <li><h3><a href="#">Content</a></h3></li>           <!-- Ideally drop down menu -->
+            </ul>
+        </nav>
+
+
+        <!-- Section to hold content -->
+        <section id="contentDiv">
+
+            <!-- Hidable Table Page navigator -->
+            <aside id="leftAside">
+                <ul id="dbNav">
+                    <li><a href="Departments.html" id="table1">Departments</a></li>
+                    <li><a href="Employees.html" id="table2">Employees</a></li>
+                    <li><a href="Jobs.html" id="table3">Jobs</a></li>
+                    <li><a href="Job_History.html" id="table4">Job History</a></li>
+                    <li><a href="Managers.html" id="table5">Managers</a></li>
+                    <li><a href="#" id="table5">My profile</a></li>
+                </ul>
+            </aside>
+
+
+            <!-- Pages table -->
+            <div id="tableDiv">
+                <table class="myTable">
+
+                    <!-- Table header -->
+                    <thead id="tableHead">
+
+                        <!-- Title of table -->
+                        <tr id="title">
+                            <td colspan="4">Jobs</td>
+                        </tr>
+
+                        <!-- Column header -->
+                        <tr id="colHead" rowspan="2">
+                            <td>Job ID</td>
+                            <td>Deparment ID</td>
+                            <td>Job Title</td>
+                            <td>Salary (&euro;)</td>
+                        </tr>
+                    </thead>
+
+                    
+                    <!-- Table body -->
+                    <tbody id="tableBody">
+
+                        <!-- Job 1 -->
+                        <tr>
+                            <td>0</td><td>0</td><td>HR Manager</td><td>70000</td>
+                        </tr>
+
+                        <!-- Job 2 -->
+                        <tr>
+                            <td>1</td><td>2</td><td>IT Manager</td><td>80000</td>
+                        </tr>
+
+                        <!-- Job 3 -->
+                        <tr>
+                            <td>2</td><td>1</td><td>Analyst</td><td>55000</td>
+                        </tr>
+
+                        <!-- Job 4 -->
+                        <tr>
+                            <td>3</td><td>2</td><td>IT Operative</td><td>42000</td>
+                        </tr>
+
+                        <!-- Job 5 -->
+                        <tr>
+                            <td>4</td><td>1</td><td>Finance Manager</td><td>95000</td>
+                        </tr>
+
+                    </tbody>
+
+                </table>
+            </div>
+
+        </section>
+
+
+        <!-- Page Footer -->
+        <footer class="footer">
+            <div>
+                <p>HR DB Solutions. Copyright &copy; 2021-2030</p>
+            </div>
+        </footer>
+
+    </body>
+</html>
