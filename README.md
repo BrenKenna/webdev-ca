@@ -17,7 +17,10 @@ Insert any screenshots here???
 
    - Added table pages, will likely drop the managers table with the "table-standard.html"
    - Need to link these tables together (Columns first, then row data)  & add the key icon images.
-   - Fix stylings: Centre vertically + fix column widths.
+   - Fix table layout for current tables: (Done)
+     - Changed column names
+     - Not vertically centring table due to their scrollable overflow property.
+     - Dropping managers table.
 
    
 
