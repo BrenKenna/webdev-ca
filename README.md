@@ -26,14 +26,10 @@ Insert any screenshots here???
 
 2. Fix navbar:
 
-   - Option 1 = Replace ul with just the links and center align text.
-   - Option 2 = Fix glitchy ul in navbar for certain length ~ >5
-     - Due to margin that the ul + its items can occupy within the navbar
-     - Either option is fine pros / cons largely artificial compared to having something functional
-     - Option 1 uses less content elements, do that first & look at #2 later.
-
+   - Done: Not everything has to float
    
-
+   
+   
 3. Finalize images for brand & icon for tables template.
    - Done
 
