@@ -13,7 +13,11 @@ Insert any screenshots here???
 
 ## To Do List:
 
-1. Create another table and link together
+1. Actual table pages:
+
+   - Added table pages, will likely drop the managers table with the "table-standard.html"
+   - Need to link these tables together (Columns first, then row data)  & add the key icon images.
+   - Fix stylings: Centre vertically + fix column widths.
 
    
 
