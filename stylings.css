@@ -18,32 +18,9 @@
 
 /*
 * 
-* 1. Stylings for header and navbar:
+* 1. Stylings for navbar:
 * 
 */
-
-/* 
-* Header:
-*   - Will change content to an image with a header as meme
-*/
-#brand{
-    height: auto;
-    width: 100%;
-    padding-top: 10px;
-    /*background-color: khaki;*/
-    margin: auto;
-    position: relative;
-}
-
-#brand h1{
-    position: absolute;
-    color: white;
-    font-style: italic;
-    font-weight: bold;
-    font-size: 45px;
-    top: 405px;
-    left: 10px;
-}
 
 /* 
 * Navigation bar:
