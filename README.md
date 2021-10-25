@@ -13,10 +13,26 @@ Insert any screenshots here???
 
 ## To Do List:
 
-1. Actual table pages:
+1. Final pass over stylings and pages
 
-   - Added table pages, will likely drop the managers table with the "table-standard.html"
-   - Need to link these tables together (Columns first, then row data)  & add the key icon images.
+   
+
+2. Actual table pages:
+
+   - Added table pages
+
+     - Done
+
+       
+
+   - Link tables: (Done)
+
+     - No need for link on table columns.
+
+     - Added the key icon images.
+
+       
+
    - Fix table layout for current tables: (Done)
      - Changed column names
      - Not vertically centring table due to their scrollable overflow property.
@@ -24,23 +40,23 @@ Insert any screenshots here???
 
    
 
-2. Fix navbar:
+3. Fix navbar:
 
    - Done: Not everything has to float
+
    
-   
-   
-3. Finalize images for brand & icon for tables template.
+
+4. Finalize images for brand & icon for tables template.
    - Done
 
      
 
-4. Consistent color pallet for pages + text
+5. Consistent color pallet for pages + text
    - Done
 
      
 
-5. Table color stylings <= Less is more
+6. Table color stylings <= Less is more
    - Done
 
 
@@ -65,5 +81,7 @@ Insert any screenshots here???
 
   ​	https://www.w3schools.com/css/css_float.asp
 
+  ​    https://www.w3schools.com/css/css_inline-block.asp
+  
   ​	https://www.w3schools.com/css/css_overflow.asp
 
