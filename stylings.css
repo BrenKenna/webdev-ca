@@ -4,21 +4,18 @@
 *  Landing Page:
 *   1. Header & Navbar stylings.
 *   2. Core page content
-*       -> Left aside HR Box.
-*       -> Right aside table navigation
 * 
 *  Base Table pages:
-*   1. Header & Navbar stylings <= covered by landing page
-*   2. Core page content stylings.
-*   3. Left and right asides stylings.
-*   4. Table stylings.
-*   5. Page footer styling.
+*   3. Core page content stylings.
+*   4. Left aside nav bar.
+*   5. Table stylings.
+*   6. Page footer styling.
 */
 
 
 /*
 * 
-* 1. Stylings for navbar:
+* 1. Stylings for navbar
 * 
 */
 
@@ -79,11 +76,8 @@
 
 /*
 * 
-* Landing Page Content Section:
+* 2. Landing page content
 *
-*   - Need padding etc
-*   - Check background colors
-* 
 */
 
 /* Section stylings */
@@ -129,9 +123,10 @@
     padding-top: 10px;
 }
 
+
 /*
 * 
-* 2. Section holding main content
+* 3. Section holding main content
 *
 */
 
@@ -146,15 +141,9 @@
 }
 
 
-
 /*
 * 
-* 3. Style the asides
-*   - Left aside moves to other tables
-*       => Ideally a click box actives it moving out from the left
-* 
-*   - Rigth aside table documentation
-*       => Ideally a click box actives it moving out from the right
+* 4. Left aside navbar
 */
 
 /* Style left aside */
@@ -163,7 +152,7 @@
 	position: relative;
 	top: 0px;
     height: 500px;
-    width: 14%;
+    width: 12%;
     padding-top: 0px;
     border: black solid 2px;
 }
@@ -201,10 +190,10 @@
     color: black;
 }
 
+
 /*
 *
-* 4. Table Stylings 
-*
+* 5. Table Stylings 
 *
 */
 
@@ -224,7 +213,7 @@ table {
 
 .myTable {
     font-family: Arial, Helvetica, sans-serif;
-    width: 80%;
+    width: 95%;
     margin: auto;
     text-align: center;
     border-collapse: collapse;
@@ -235,11 +224,16 @@ table {
     background: #004C99;
 }
 
+.myTable thead{
+    font-weight: bold;
+}
+
 
 /* Style table data */
 .myTable td {
     border: 1px solid black;
     padding: 8px;
+    width: 10%;
 }
 
 /* Make header sticky */
@@ -251,30 +245,21 @@ table {
     opacity: 0.8;
 }
 
-/* Style even rows from table, and highlight on hover */
 
+/* Style even rows from table, and text size on hover */
 #tableBody tr:nth-child(even) {
     background-color: lightsteelblue;
 }
 #tableBody tr:hover{
     /*background-color: lightsteelblue;*/
     font-size: 125%;
-}
-
-/* Style title, col header and footer */
-.myTable thead,tfoot{
     font-weight: bold;
-}
-
-.myTable tfoot:hover,#title:hover,#colHead:hover{
-    /*background-color: lightyellow;*/
-    font-size: 125%;
 }
 
 
 /*
 * 
-* 5. Page footer
+* 6. Page footer
 * 
 */
 .footer{
@@ -283,15 +268,13 @@ table {
     width: 100%;
     height: 100px;
     background-color:#004C99;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 .footer div{
     position: absolute;
-    height: auto;
     width: 100%;
     top: 25%;
-    margin-left: 35%;
-    margin-right: 25%;
+    margin-left: 37%;
     font-style: italic;
     font-weight: bold;
     color: whitesmoke;
