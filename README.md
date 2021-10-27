@@ -15,6 +15,9 @@ Insert any screenshots here???
 
 1. Final pass over stylings and pages
 
+   - Added employees missing a job :)
+   - "Current" JobID added to Employees table
+
    
 
 2. Actual table pages:
