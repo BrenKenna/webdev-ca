@@ -203,6 +203,15 @@ table {
     border-spacing: 0;
 }
 
+
+/* Style primary and secondary key images */
+.PrimaryKey{
+    width: 15px;
+}
+.SecondaryKey{
+    width: 15px;
+}
+
 /* Overflow and margin */
 #tableDiv{
     height: 500px;
